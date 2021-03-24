@@ -23,12 +23,7 @@ npm run build
 
 可以用 [awesome_mxflutter](https://github.com/mxflutter/awesome_mxflutter) 运行生成的js bundle 文件
 
+## 运行截图
+![](http://pub.idqqimg.com/pc/misc/files/20210324/8b19a1e423934686ad1681f69bcd1353.jpg)
 
-
-<figure class="half">
-  
-<img src="https://pub.idqqimg.com/pc/misc/files/20210324/b59824fcf546476fbadc9a2e57e860ab.png" width = "200"  alt="widget list"  />
-<img src="http://pub.idqqimg.com/pc/misc/files/20210324/e5c18cf1f72b4afe86255ffca5bcb906.png" width = "200"  alt="zhihu" />
-
-</figure>
 
