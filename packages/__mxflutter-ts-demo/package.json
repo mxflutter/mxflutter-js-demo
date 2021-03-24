@@ -11,8 +11,8 @@
   },
   "license": "MIT",
   "contributors": [
-    "rocksun <rocksun@tencent.com>",
-    "jiechang <jiechang@tencent.com>"
+    "rock <mxflutter@qq.com>",
+    "jiechang <mxflutter@qq.com>"
   ],
   "scripts": {
     "clean": "rm -rf dist lib",
