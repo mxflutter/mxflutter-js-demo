@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": "./"
+  }
+}

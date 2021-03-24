@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.es5.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "rootDir": "src",
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.es5.base",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": "./",
+    "declaration": false,
+    "importHelpers": true,
+    "noEmitHelpers": true
+  },
+  "exclude": ["./index.js"]
+}

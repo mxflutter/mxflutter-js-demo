@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": "./",
+  },
+  "exclude": ["./index.js"]
+}
