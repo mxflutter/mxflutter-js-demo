@@ -1,6 +1,6 @@
 ### MXFlutter TS/JS Demo
 
-包含4个MXFlutter的demo 工程
+包含5个MXFlutter的demo 工程
 
 #### 编译输出JS Bundle
 
@@ -25,5 +25,30 @@ npm run build
 
 ## 运行截图
 ![](http://pub.idqqimg.com/pc/misc/files/20210324/8b19a1e423934686ad1681f69bcd1353.jpg)
+
+### 动态资源引入
+
+假设index.ts的相对路径结构如下
+
+```bash
+├── index.ts
+├── images
+│   ├── menuset.png
+│   ├── video.png
+│   ├── idea.png
+```
+
+相对路径资源require引入示例
+
+```javascript
+Image.file(require('./images/menuset.png'), { width: 20, height: 20 })
+Image.file(require('./images/video.png'))
+Image.file(require('./images/idea.png'))
+```
+
+运行效果
+<img src="https://img-blog.csdnimg.cn/20210707123047386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI5NjIyMTM5,size_16,color_FFFFFF,t_70" style="zoom:50%;" />
+<img src="https://img-blog.csdnimg.cn/20210707123059798.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI5NjIyMTM5,size_16,color_FFFFFF,t_70" style="zoom:50%;" />
+
 
 
