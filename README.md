@@ -47,7 +47,9 @@ Image.file(require('./images/idea.png'))
 ```
 
 运行效果
-<img src="http://pub.idqqimg.com/pc/misc/files/20210707/771f12d793254b9a970e80d57a757a25.png" style="zoom:50%;" />
-<img src="http://pub.idqqimg.com/pc/misc/files/20210707/b28432e7ffd142808ff2e3fa99015b1a.png" style="zoom:50%;" />
+
+<img src="http://pub.idqqimg.com/pc/misc/files/20210707/771f12d793254b9a970e80d57a757a25.png" width="375" />
+
+<img src="http://pub.idqqimg.com/pc/misc/files/20210707/b28432e7ffd142808ff2e3fa99015b1a.png" width="375" />
 
 
